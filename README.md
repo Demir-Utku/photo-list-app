@@ -25,7 +25,9 @@ This application is mostly responsive to variant resolutions except the logo and
 
 ## Installation
 
-
+Clone the repository: $ git clone https://github.com/Demir-Utku/Hipo-Frontend-Exercise.git
+Change directory: $ cd Hipo-Frontend-Exercise
+Install the packages: $ yarn
 
 ## Available Scripts
 
