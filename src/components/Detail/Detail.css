@@ -16,7 +16,7 @@
 
 /* Highlight active anchor */
 .popup:target {
-	width: auto;
+  width: auto;
 	height: auto;
 	opacity: 1;
 	-webkit-transition: opacity 1s ease;
