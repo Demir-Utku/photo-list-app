@@ -1,0 +1,87 @@
+.pagination-wrapper {
+  width: 100%;
+  height: 3vw;
+  text-align: center;
+}
+
+.button-prev {
+  cursor: pointer;
+  font-family: Open Sans, sans-serif;
+  margin-right: 0.38vmax;
+  height: 3vw;
+  width: 6.4vw;
+  font-size: 0.972vw;
+  background-color: white;
+  color: #2A2B8D;
+  border: 1px solid rgb(199, 194, 194);
+  margin-top: 4vw;
+}
+
+.button-next {
+  cursor: pointer;
+  font-family: Open Sans, sans-serif;
+  margin-left: 0.38vmax;
+  height: 3vw;
+  width: 6.4vw;
+  font-size: 0.972vw;
+  background-color: white;
+  border: 1px solid rgb(199, 194, 194);
+  color: #2A2B8D;
+  margin-top: 4vw;
+}
+
+/*@media screen and (min-width: 400px) {
+  .button-prev .button-next {
+    height: 16.04px;
+    width: 35.52px;
+    font-size: 5.73px;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .button-prev .button-next {
+    height: 22.456px;
+    width: 49.73px;
+    font-size: 8.026px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .button-prev .button-next {
+    height: 28.87px;
+    width: 63.94px;
+    font-size: 10.32px;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  .button-prev .button-next {
+    height: 35.3px;
+    width: 78.14px;
+    font-size: 12.6px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .button-prev .button-next {
+    height: 148.12px;
+    width: 206.56px;
+    font-size: 2em;
+  }
+}*/
+
+.button-next:not(:disabled), .button-prev:not(:disabled) {
+  font-weight: 600;
+}
+  
+.button-next:hover:not(:disabled), .button-prev:hover:not(:disabled) {
+  color: #262363;
+  background-color: rgb(180, 180, 180);
+}
+
+.button-next:disabled, .button-prev:disabled {
+  cursor: auto;
+  border: 1px solid #DDDDDD;
+  color: #2A2B8D;
+  opacity: 0.6;
+}

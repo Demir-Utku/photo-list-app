@@ -1,0 +1,13 @@
+.Error {
+  position: absolute;
+  width: 65.278vw;
+  height: 5vw;
+  left: 17.361vw;
+  top: 15vw;
+
+  /* Red Error Statement */
+
+  background: #FF4A4A;
+  opacity: 0.1;
+  border-radius: 4px;
+}

@@ -1,0 +1,5 @@
+.image-list {
+  column-count: 3; /* Number of columns */
+  column-gap: 0.5vw; /* Gap between columns */
+  column-width: 20vw; /* Width of columns */
+}

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Includes 4 elements: logo, input, dropdown and button */
+.header {
+  background-color: #050417;
+  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  display: flex!important;
+  flex-flow: column;
+  color: white;
+  overflow: hidden;
+}
+
+/* Logo cover properties */
+.header-logo {
+  width: 3.646vw;
+  height: 3.646vw;
+  background: linear-gradient(333.23deg, #2A2B8D -16.84%, #2B2F8F -12.31%, #559BD1 119.72%);
+  border-radius: 26px;
+  margin: 0 auto;
+  align-self: center;
+}
+
+/* Contains logo */
+.header-logo-wrapper {
+  width: 11.979vw;
+  height: 7.5vw;
+  margin-top: 12.5vw;
+  align-self: center;
+}
+
+/* Logo properties */
+.logo {
+  position: relative;
+  width: 2.083vw;
+  height: 2.083vw;
+  top: 1.042vw;
+}
+
+.header-logo-name {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  font-size: 1.875vw;
+  text-align: center;
+  width: 11.875vw;
+  height: 2.604vw;
+  text-justify: auto;
+}
+
+/* Includes all header elements except logo */
+.search-form {
+  width: 27.778vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0 auto;
+  align-self: center;
+}
+
+/* Collections dropdown */
+.select-wrapper {
+  margin-top: 1.094vw;
+  text-align: initial;
+}
+
+.input {
+  height: 2.604vw;
+  width: 27.778vw;
+  border: 0px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  font-family: 'Open Sans';
+  line-height: normal;
+  font-size: 14px;
+  font-weight: bold;
+  color: #050417;
+  padding-left: 16px;
+  box-sizing: border-box;
+}
+
+.input::placeholder {
+  color: #D5D7E5;
+}
+
+.input-query {
+  margin-top: 2.656vw;
+}
+
+
+.select-option[disabled] {
+  color: #D5D7E5;
+}
+
+.select-option {
+  color: #050417;
+}
+
+/* Search button */
+.search-button {
+  align-self: center;
+  width: 12.813vw;
+  height: 2.604vw;
+  border: 0px;
+  background: #2A2B8D;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 900;
+  border-radius: 25px;
+  line-height: normal;
+  font-size: 0.73vw;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-top: 3.906vw;
+  margin-bottom: 18.438vw;
+}
+
+/* Header properties when a search has been made */
+.inline-header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  min-height: 6.25vw;
+  height: 6.25vw;
+  min-width: 100%;
+  flex-direction: row;
+  box-sizing: border-box;
+  overflow: unset;
+  margin: auto;
+}
+
+/* These below properties are same with above ones except that */
+/* the below ones are properties when a search has been made */
+.inline-header-logo {
+  margin-top: -6.2vw;
+  overflow: hidden;
+}
+
+.inline-header-logo-wrapper {
+  margin-left: 3.5vw;
+  height: 3.646vw;
+  width: 3.646vw;
+}
+
+.inline-header-logo-name {
+  display: none;
+}
+
+.inline-search-form {
+  width: 100%;
+  flex-flow: row;
+  align-items: center;
+}
+
+.inline-input-query {
+  width: 27.6vw;
+  margin-top: inherit;
+  margin-left: 5.1vw;
+}
+
+.inline-select-wrapper {
+  width: 27.6vw;
+  margin-top: inherit;
+  margin-left: 2.083vw;
+}
+
+.inline-search-button {
+  margin-top: 18.5vw;
+  margin-left: 3.7vw;
+  margin-right: 6.1vw;
+}

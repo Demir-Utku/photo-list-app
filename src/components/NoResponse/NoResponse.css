@@ -1,0 +1,7 @@
+/* No response image appears in the center of the page */
+.NoResponse {
+  position: absolute; 
+  left: 20%;
+  right: 20%;
+  top: 50%;
+}

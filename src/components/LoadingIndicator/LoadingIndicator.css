@@ -1,0 +1,11 @@
+.loading {
+  position: absolute;
+  width: 14.028vw;
+  height: 7.917vw;
+  left: 42.986vw;
+  top: 22.5vw;
+  background: url(../../images/loading.png) left center;
+  background-size: cover;
+  animation: play 2s steps(10) infinite;
+  display: inline-block;
+}
