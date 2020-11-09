@@ -20,7 +20,7 @@ This application is mostly responsive to variant resolutions except the logo and
 
 ## Requirements
 
--  [NodeJS](http://nodejs.org/) and [NPM](https://npmjs.org/) or [yarn](https://yarnpkg.com/)
+-  [NodeJS](http://nodejs.org/), [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com/)
 -  Packages: [axios](https://github.com/axios/axios), [react-gmaps](https://github.com/MicheleBertoli/react-gmaps) and [react-onclickoutside](https://github.com/Pomax/react-onclickoutside)
 
 ## Installation
