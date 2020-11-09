@@ -40,12 +40,11 @@ export default class View extends Component {
     });
   }
 
-  //burada iskeleti güncelemme yap
   getImage = () => {
     return(
       <>
         <a href={`#${this.props.view.id}`} onLoad={() => this.loadDetail(this.props.view.id)}>
-          <img src={this.props.view.url} style={{ height: `${20.5 * (this.props.view.height / this.props.view.width)}vw` }} key={this.props.view.url} alt="Yükleniyor"/>
+          <img src={this.props.view.url} style={{ height: `${20.5 * (this.props.view.height / this.props.view.width)}vw` }} key={this.props.view.url}/>
         </a>
         {this.state.searched && 
           <Detail location={this.state.location} id={this.props.view.id} smallImage={this.state.smallImage} rawImage={this.state.rawImage} user={this.state.user} />
