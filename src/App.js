@@ -59,7 +59,7 @@ class App extends Component {
     this.setState({[e.target.name]: e.target.value})
   }
 
-  itemClicked = (newId) => { //liste item tıklaması eventi
+  itemClicked = (newId) => { //list item click
     this.setState({collection: newId});
   }
 
@@ -69,7 +69,7 @@ class App extends Component {
     this.loadImages();
   }
 
-  loadImages = () => { //api isteği yapılır
+  loadImages = () => { //api request
     this.setState({loading: true}) //starts spinner
 
     axios.get('https://api.unsplash.com/search/photos?query=' + this.state.query + '&page=' + this.state.currentPage + '&per_page=15&collections=' + this.state.collectionId + '&client_id=oGAB55r3jWyuk5FXcJEV2kbB2DBvVmPfHowiFHHoTn4')
