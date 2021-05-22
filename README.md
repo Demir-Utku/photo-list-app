@@ -1,4 +1,4 @@
-# Hipo Frontend Part-Time Exercise
+# Photo List Application
 
 ## Description
 
