@@ -2,7 +2,7 @@
 
 ## Description
 
-A React application uses Unsplash API to list photos that are related to user's entered query (keyword) and optional page, per_page, collections informations.
+A React application uses Unsplash API to list photos that are related to user's entered query (keyword) and optional page, per_page, collection information.
 
 Users enter the keyword in the text input and select the collection from the dropdown input. After a successful search, users will be displayed a masonry grid of search results.
 
