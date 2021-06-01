@@ -27,12 +27,12 @@ This application is mostly responsive to variant resolutions except the logo and
 
 Clone the repository:
 ```sh
-git clone https://github.com/Demir-Utku/Hipo-Frontend-Exercise.git
+git clone https://github.com/Demir-Utku/photo-list-app.git
 ```
 
 Change the directory:
 ```sh
-cd Hipo-Frontend-Exercise
+cd photo-list-app
 ```
 
 Install the packages:
