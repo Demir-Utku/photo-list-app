@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 /* Includes 4 elements: logo, input, dropdown and button */
 .header {
@@ -6,7 +6,7 @@
   min-height: 100vh;
   height: 100vh;
   width: 100%;
-  display: flex!important;
+  display: flex !important;
   flex-flow: column;
   color: white;
   overflow: hidden;
@@ -16,7 +16,12 @@
 .header-logo {
   width: 3.646vw;
   height: 3.646vw;
-  background: linear-gradient(333.23deg, #2A2B8D -16.84%, #2B2F8F -12.31%, #559BD1 119.72%);
+  background: linear-gradient(
+    333.23deg,
+    #2a2b8d -16.84%,
+    #2b2f8f -12.31%,
+    #559bd1 119.72%
+  );
   border-radius: 26px;
   margin: 0 auto;
   align-self: center;
@@ -39,7 +44,7 @@
 }
 
 .header-logo-name {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 100;
   line-height: normal;
@@ -71,9 +76,9 @@
   height: 2.604vw;
   width: 27.778vw;
   border: 0px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 4px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   line-height: normal;
   font-size: 14px;
   font-weight: bold;
@@ -83,16 +88,15 @@
 }
 
 .input::placeholder {
-  color: #D5D7E5;
+  color: #d5d7e5;
 }
 
 .input-query {
   margin-top: 2.656vw;
 }
 
-
 .select-option[disabled] {
-  color: #D5D7E5;
+  color: #d5d7e5;
 }
 
 .select-option {
@@ -105,15 +109,15 @@
   width: 12.813vw;
   height: 2.604vw;
   border: 0px;
-  background: #2A2B8D;
-  font-family: 'Open Sans';
+  background: #2a2b8d;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 900;
   border-radius: 25px;
   line-height: normal;
   font-size: 0.73vw;
   letter-spacing: 0.1em;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   margin-top: 3.906vw;
   margin-bottom: 18.438vw;

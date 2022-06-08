@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import './NoResponse.css';
+import "./NoResponse.css";
 
-import Logo from '../../images/nodata.png';
+import Logo from "../../images/nodata.png";
 
 // No data case
 const NoResponse = () => (

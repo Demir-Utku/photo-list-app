@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import View from '../View/View';
+import React, { Component } from "react";
+import View from "../View/View";
 
-import './ImageList.css';
+import "./ImageList.css";
 
-export default class ImageList extends Component{
+export default class ImageList extends Component {
   returnImageList = () => {
-    const list = this.props.data.results.map(result => {
+    const list = this.props.data.results.map((result) => {
       const view = {
         // URL, width, height, id and download properties of view
         url: result.urls.small,
@@ -26,14 +26,12 @@ export default class ImageList extends Component{
     });
 
     return list;
-  }
+  };
 
-  render () {
-    return(
+  render() {
+    return (
       <div>
-        <div className="image-list">
-          {this.returnImageList()}
-        </div>
+        <div className="image-list">{this.returnImageList()}</div>
       </div>
     );
   }

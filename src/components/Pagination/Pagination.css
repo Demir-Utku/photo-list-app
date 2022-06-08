@@ -12,7 +12,7 @@
   width: 6.4vw;
   font-size: 0.972vw;
   background-color: white;
-  color: #2A2B8D;
+  color: #2a2b8d;
   border: 1px solid rgb(199, 194, 194);
   margin-top: 4vw;
 }
@@ -26,22 +26,25 @@
   font-size: 0.972vw;
   background-color: white;
   border: 1px solid rgb(199, 194, 194);
-  color: #2A2B8D;
+  color: #2a2b8d;
   margin-top: 4vw;
 }
 
-.button-next:not(:disabled), .button-prev:not(:disabled) {
+.button-next:not(:disabled),
+.button-prev:not(:disabled) {
   font-weight: 600;
 }
-  
-.button-next:hover:not(:disabled), .button-prev:hover:not(:disabled) {
+
+.button-next:hover:not(:disabled),
+.button-prev:hover:not(:disabled) {
   color: #262363;
   background-color: rgb(180, 180, 180);
 }
 
-.button-next:disabled, .button-prev:disabled {
+.button-next:disabled,
+.button-prev:disabled {
   cursor: auto;
-  border: 1px solid #DDDDDD;
-  color: #2A2B8D;
+  border: 1px solid #dddddd;
+  color: #2a2b8d;
   opacity: 0.6;
 }

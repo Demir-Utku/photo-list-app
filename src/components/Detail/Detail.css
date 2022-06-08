@@ -17,63 +17,69 @@
 /* Highlight active anchor */
 .popup:target {
   width: auto;
-	height: auto;
-	opacity: 1;
-	-webkit-transition: opacity 1s ease;
-	transition: opacity 1s ease;
+  height: auto;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
 }
 
 /* popup cover */
 .popup:target .popup-overlay {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	cursor: pointer;
-	background-color: #000;
-	z-index: 1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  background-color: #000;
+  z-index: 1;
 }
 
 /* I want the design to be responsive, I gave the unit as vw, vh or percentage instead of px */
 .popup .popup-dialog {
   border-radius: 0.4vw;
   /* Add a shadow to popup window as in the design of this exercise */
-	box-shadow: 0 0.7vw 1vw -0.45vw rgba(0, 0, 0, 0.2), 0 1.5vw 2.4vw 0.2vw rgba(0, 0, 0, 0.14), 0.6vw 3vw 0.5vw rgba(0, 0, 0, 0.12);
-	position: relative;
-	max-width: 70%; /* popup maximum width */
-	max-height: 80%; /* popup maximum height */
-	margin: 3vw auto;
-	overflow-x: hidden;
-	overflow-y: auto;
-	z-index: 2;
+  box-shadow: 0 0.7vw 1vw -0.45vw rgba(0, 0, 0, 0.2),
+    0 1.5vw 2.4vw 0.2vw rgba(0, 0, 0, 0.14), 0.6vw 3vw 0.5vw rgba(0, 0, 0, 0.12);
+  position: relative;
+  max-width: 70%; /* popup maximum width */
+  max-height: 80%; /* popup maximum height */
+  margin: 3vw auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 2;
 }
 
-.popup-dialog-lg {max-width: 820px !important;} /* for lower screen size, e.g. tablet or phone */
+.popup-dialog-lg {
+  max-width: 820px !important;
+} /* for lower screen size, e.g. tablet or phone */
 
 /* Sub division of popup-dialog */
-.popup .popup-content {background: #fff; padding: 1.45vw 1.71vw;}
+.popup .popup-content {
+  background: #fff;
+  padding: 1.45vw 1.71vw;
+}
 
 .popup .popup-close {
   position: absolute;
-	top: 0.82vw;
-	right: 0.82vw;
-	color: #0085a6;
-	background-color: #fff;
-	border-radius: 50%;
-	height: 2.53vw;
-	width: 2.53vw;
-	font-size: 1.9vw;
-	line-height: 2.34vw;
-	text-align: center;
-	-webkit-transition: all .3s ease-in-out; /* Combines 4 transition properties into one property */
-  transition: all .3s ease-in-out;
+  top: 0.82vw;
+  right: 0.82vw;
+  color: #0085a6;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 2.53vw;
+  width: 2.53vw;
+  font-size: 1.9vw;
+  line-height: 2.34vw;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out; /* Combines 4 transition properties into one property */
+  transition: all 0.3s ease-in-out;
 }
 
 /* If mouseover over the popup close button */
 .popup .popup-close:hover {
-  background-color :#0085a6; 
-  color: #fff; 
+  background-color: #0085a6;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -144,7 +150,7 @@
 
 /* Name of user */
 .user-name {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
   line-height: normal;
@@ -155,11 +161,11 @@
 
 /* Username of user */
 .user-username {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
   line-height: normal;
-  color: #2A2B8D;
+  color: #2a2b8d;
   font-size: 1.4em;
   padding: 10%;
   cursor: pointer;
@@ -173,16 +179,16 @@
   height: 3.75vw;
   margin-top: 2vw;
   padding: 0.7vw;
-  background: #FFFFFF;
-  border: 0.1vw solid #2A2B8D;
+  background: #ffffff;
+  border: 0.1vw solid #2a2b8d;
   box-sizing: border-box;
   border-radius: 0.63vw;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
   line-height: normal;
   font-size: 1.14vw;
-  color: #2A2B8D;
+  color: #2a2b8d;
 }
 
 .download {
@@ -209,7 +215,7 @@ span {
 
 .download-button a {
   text-decoration: none;
-  color: #2A2B8D;
+  color: #2a2b8d;
 }
 
 .map {

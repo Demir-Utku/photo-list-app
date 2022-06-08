@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React, { Component } from 'react';
-import Map from '../Map/Map';
+import React, { Component } from "react";
+import Map from "../Map/Map";
 
-import './Detail.css';
+import "./Detail.css";
 
 export default class Detail extends Component {
   render() {
@@ -20,13 +20,25 @@ export default class Detail extends Component {
             <div className="user-and-download">
               <div className="user-info">
                 <div className="user-image-wrapper">
-                  <a href={'https://unsplash.com/@' + this.props.user.username} target="_blank" rel="noopener noreferrer">
-                    <img className="user-image" src={this.props.user.image} alt="User Img" />
+                  <a
+                    href={"https://unsplash.com/@" + this.props.user.username}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="user-image"
+                      src={this.props.user.image}
+                      alt="User Img"
+                    />
                   </a>
                 </div>
                 <div className="user-name-wrapper">
                   <p className="user-name">{this.props.user.name}</p>
-                  <a href={'https://unsplash.com/@' + this.props.user.username} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={"https://unsplash.com/@" + this.props.user.username}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <p className="user-username">@{this.props.user.username}</p>
                   </a>
                 </div>
@@ -41,10 +53,15 @@ export default class Detail extends Component {
 
             {/* Google map at the bottom of the popup screen */}
             <div className="map">
-              {
-                this.props.location && this.props.location.latitude && this.props.location.longitude &&
-                <Map className="gmap" lat={this.props.location.latitude} lng={this.props.location.longitude} />
-              }
+              {this.props.location &&
+                this.props.location.latitude &&
+                this.props.location.longitude && (
+                  <Map
+                    className="gmap"
+                    lat={this.props.location.latitude}
+                    lng={this.props.location.longitude}
+                  />
+                )}
             </div>
           </div>
         </div>
